@@ -14,7 +14,6 @@ int main(void)
 	for (count = 0; count < sz; count++)
 	{
 		_putchar(str[count]);
-
 	}
 	_putchar('\n');
 	return (0);
