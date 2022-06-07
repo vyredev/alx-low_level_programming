@@ -2,7 +2,7 @@
 
 /**
  * _isalpha - recognizes alphabet
- * 
+ *
  * @c: ASCII character
  *
  * Return: 1 if alphabet, 0 if other
