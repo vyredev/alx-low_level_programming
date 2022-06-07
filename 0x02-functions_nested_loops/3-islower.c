@@ -4,7 +4,7 @@
  * _islower - checks if character
  * lowercase or not
  *
- * c - ASCII character
+ *@c: ASCII character
  *
  * Return: 1 for lowercase, 0 for rest
  */
