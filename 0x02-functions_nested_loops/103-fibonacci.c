@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - adds even fibonacci numbers
+ * main - prints added fibonacci even numbers
  *
- * Return: always 0
+ * Returns: Always 0
  */
 int main(void)
 {
@@ -22,6 +22,6 @@ int main(void)
 			afn += n1;
 		}
 	}
-	printf("%d\n", afn);
+	printf("%ld\n", afn);
 	return (0);
 }
