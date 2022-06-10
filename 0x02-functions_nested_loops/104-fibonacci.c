@@ -17,7 +17,7 @@ int main(void)
 	{
 		if (boolean)
 		{
-			fn - n1 + n2;
+			fn = n1 + n2;
 			printf(", %ld", fn);
 			n1 = n2;
 			n2 = fn;
@@ -39,7 +39,7 @@ int main(void)
 			n1 = n2;
 			n11 = n22;
 			n2 = fn;
-			n22 = (fn2 % 1000000000):
+			n22 = (fn2 % 1000000000);
 		}
 		if (((n1 + n2) < 0) && boolean == 1)
 			boolean = 0;
