@@ -2,7 +2,7 @@
 
 /**
  * _isupper - checks if parameter is uppercase
- * @c: input character 
+ * @c: input character
  * Return: 1 if uppercase, 0 if other
  */
 int _isupper(int c)
