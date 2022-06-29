@@ -8,7 +8,7 @@
  */
 void print_number(int n)
 {
-	unsigned int m, d, count:
+	unsigned int m, d, count;
 
 	if (n < 0)
 	{
@@ -31,6 +31,6 @@ void print_number(int n)
 
 	for (; count >= 1; count /= 10)
 	{
-		_putchar(((m / count) % 10) + 48):
+		_putchar(((m / count) % 10) + 48);
 	}
 }
