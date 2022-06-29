@@ -6,7 +6,7 @@
  * @argv: array with arguments
  * Return: 0 - success
  */
-int main(int argc, char *arv[])
+int main(int argc, char *argv[])
 {
 	int cents, ncoins = 0;
 
