@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * rot13 - rotates 13 places cipher
+ * rot13 - encodes a string in rot13
  * @s: string to be encoded
  *
  * Return: resulting string
