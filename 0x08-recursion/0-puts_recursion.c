@@ -1,0 +1,17 @@
+#include "main.h"
+
+/**
+ * _puts_recursion - prints a string, the a new line
+ * @s: string
+ * Return: none
+ */
+void _puts_recursion(char *s)
+{
+	if (s* != '\0')
+	{
+		_putchar(*s);
+		_puts_recurion(s + 1);
+	}
+	else
+		_putchar('\n');
+}
