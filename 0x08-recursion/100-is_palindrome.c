@@ -34,7 +34,7 @@ int compare(char *s, int n1, int n2)
  * @s: string
  * Return: 1 id s is palindrome, 0 if it's not
  */
-int is _palindrome(char *s)
+int is_palindrome(char *s)
 {
 	if (*s == '\0')
 		return (1);
