@@ -3,7 +3,7 @@
 /**
  * ch_free_grid - frees a 2d array
  * @grid: multidimensional array
- * #height: height of the array
+ * @height: height of the array
  * Return: none
  */
 void ch_free_grid(char **grid, unsigned int height)
@@ -26,7 +26,7 @@ char **strtow(char *str)
 	char **aout;
 	unsigned int c, height, i, j, a1;
 
-	if(str == NULL || *str == '\0')
+	if (str == NULL || *str == '\0')
 		return (NULL);
 	for (c = height = 0; str[c] != '\0'; c++)
 		if (str[c] != ' ' && (str[c + 1] == ' ' || str[c + 1] == '\0'))
